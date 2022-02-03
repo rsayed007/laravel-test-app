@@ -1,6 +1,9 @@
 <h1>Hello auth user</h1>
 {{Auth::user()}}
+@php
 
-@auth
+@endphp
+{{Auth::id()}}
+{{-- @auth
     <h2>roman</h2>
-@endauth
+@endauth --}}
